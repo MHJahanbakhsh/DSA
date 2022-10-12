@@ -388,7 +388,7 @@ anotherFunChallenge(5)
 **[⬆ back to top](#table-of-contents)**
 
 ### Simplifying Big O
-
+# it is like the whole limit principle
 Rule Book
 
 1. Worst Case
