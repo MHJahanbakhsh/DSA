@@ -456,7 +456,7 @@ const printFirstItemThenFirstHalfThenSayHi100Times = (items) => {
     index++
   }
 
-  // O(100)
+  // O(100)  because it is not dependent on the input.just constant 100
   for (let i = 0; i < 100; i++) {
     console.log('hi')
   }
