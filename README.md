@@ -944,6 +944,7 @@ Array
 
 ```javascript
 // 4 * 4 = 16 bytes of storage
+// this system is 32bit so each value contains 4bytes(4*8=32bit)
 const strings = ['a', 'b', 'c', 'd'];
 strings[2]
 
