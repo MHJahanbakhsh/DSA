@@ -1081,6 +1081,12 @@ const reverse1 = (str = '') => {
   }
   return backwards.join('');
 }
+//-------- reverse with reduce method---------
+arr.reduce((prev,cnt)=>{
+  return `${cnt}${prev}`
+})
+
+//--------------------------
 
 const reverse2 = (str = '') => str.split('').reverse().join('');
 const reverse3 = (str = '') => [...str].reverse().join('');
