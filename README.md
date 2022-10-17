@@ -1145,11 +1145,13 @@ twoSum([2, 3, 4, 5, 6], 10)
 ### Hash Tables Introduction
 
 | Operation | Big O |
-| --------- | ----- |      becuase we dont have to deal with shifting indexes and all that shit
+| --------- | ----- |
 | insert    | O(1)  |
 | lookup    | O(1)  |
 | delete    | O(n)  |
 | search    | O(n)  |
+
+becuase we dont have to deal with shifting indexes and all that shit its faster in that sense
 
 [Hash Table Animation](https://www.cs.usfca.edu/~galles/visualization/OpenHash.html)
 
