@@ -1135,6 +1135,8 @@ const twoSum = (nums, target) => {
 
 twoSum([2, 3, 4, 5, 6], 10)
 ```
+![image](https://user-images.githubusercontent.com/50621975/196266024-4ca2db74-d636-4415-898b-a20a127d81e8.png)
+
 
 **[⬆ back to top](#table-of-contents)**
 
