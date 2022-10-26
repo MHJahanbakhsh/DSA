@@ -1253,8 +1253,10 @@ Hash Tables
 | --------- | ----- |
 | search    | O(1)  |
 | insert    | O(1)  |
-| lookup    | O(n)  |
-| delete    | O(n)  |
+| lookup    | O(1)  |
+| delete    | O(1)  |
+
+the problem with hashtable is they are not ordered. that is why new `map` data structure in javascript is awsome.
 
 **[⬆ back to top](#table-of-contents)**
 
