@@ -1219,7 +1219,7 @@ class HashTable {
   }
 
   keys() {
-    return this.data.filter(item => !!item).map(item => item[0][0]);  //!!item is same as: item!==undefined
+    return this.data.filter(item => !!item).reduce((prev,cur)=>[...prev,...cur]).map(el=>el[0]);
   }
 }
 
