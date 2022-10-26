@@ -1209,7 +1209,7 @@ class HashTable {
     if (!this.data[address]) {
       this.data[address] = [];
     }
-    this.data[address].push([key, value]);
+    this.data[address].push([key, value]); // with this approach when we have a hash collision, the new datas will just be pushed to in the array of the address
     return this.data;
   }
 
