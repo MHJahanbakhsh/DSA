@@ -1214,11 +1214,8 @@ class HashTable {
   }
 
   get(key) {
-    const address = this._hash(key);
-    const currentBucket = this.data[address]
-    return currentBucket 
-      ? currentBucket.find(item => item[0] === key)[1] 
-      : undefined
+    const address = this._hash(key)
+    return this.data[address]?.find(el=>el[0]===key)
   }
 
   keys() {
