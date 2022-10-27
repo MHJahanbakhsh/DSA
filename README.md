@@ -1322,6 +1322,8 @@ firstRecurringCharacter3([2,1,1,2,3,5,1,2,4])
 firstRecurringCharacter3([2,3,4,5])
 firstRecurringCharacter3([2,5,5,2,3,5,1,2,4])
 
+
+// THIS IS BRILLIANT!
 const firstRecurringCharacter4 = input => {
   const hashtable = {}
   for (let item of input) {
