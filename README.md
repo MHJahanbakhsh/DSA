@@ -1343,9 +1343,8 @@ firstRecurringCharacter4([2,5,5,2,3,5,1,2,4])
 //bad approach
 function firstOccuring(nums){
    for(let i =0; i<nums.length; i++){
-      for(let j=0; j<nums.length; j++){
-        if(i!==j && nums[i]===nums[j]){
-          console.log(nums[i])
+      for(let j=i+1; j<nums.length; j++){ //i+1 becuase we already checked previous i with alll memebers
+        if(nums[i]===nums[j]){
           return nums[i]
         }
       }
