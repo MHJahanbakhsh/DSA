@@ -1277,8 +1277,8 @@ the problem with hashtable is they are not ordered. that is why new `map` data s
 // [2,5,5,2,3,5,1,2,4]
 // return 5 because the pairs are before 2,2
 
-const firstRecurringCharacter1 = input => {
-  const map = []
+const firstRecurringCharacter1 = input => { 
+  const map = []  //we are increasing the space complexity by O(n) so that time complexity would be O(1)
   for (let i = 0; i < input.length; i++) {
     const foundItem = map.find(item => item === input[i]);
     if(!!foundItem) return input[i]; 
