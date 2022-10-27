@@ -983,6 +983,7 @@ JavaScript Array is dynamic
 | insert          | O(n)  | insert        | O(n)         |
 | delete          | O(n)  | delete        | O(n)         |
 
+reason for append is: although we don't specify the size of array ahead of time; machine has already allocated some space in memory for that and if our new elements are overflowing that size, then new array has to be created in another place of memory.this would cause looping through initial array for copy( O(n) ) and also doubles the memory usage(if prev array doesn't get cleaned up  from memory) 
 **[⬆ back to top](#table-of-contents)**
 
 ### Optional: Classes In Javascript
