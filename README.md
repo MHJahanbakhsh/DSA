@@ -1383,6 +1383,8 @@ Cons
 - Unordered
 - Slow key interation
 
+### for improving the time complexity hash-maps or tables(same thing) are really good choie.but with the tradeoff of increasing spance complexity
+
 **[⬆ back to top](#table-of-contents)**
 
 ## **Section 8: Data Structures: Linked Lists**
