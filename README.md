@@ -1335,6 +1335,33 @@ firstRecurringCharacter4([2,5,1,2,3,5,1,2,4])
 firstRecurringCharacter4([2,1,1,2,3,5,1,2,4])
 firstRecurringCharacter4([2,3,4,5])
 firstRecurringCharacter4([2,5,5,2,3,5,1,2,4])
+
+//----------------------------my codes below-----------------------------:
+
+//bad approach
+function firstOccuring(nums){
+   for(let i =0; i<nums.length; i++){
+      for(let j=0; j<nums.length; j++){
+        if(i!==j && nums[i]===nums[j]){
+          console.log(nums[i])
+          return nums[i]
+        }
+      }
+   }
+}
+
+
+//good approach
+function firstOccuring2(nums){
+
+  const hashMap = {}
+  for(let i of nums){
+    hashMap[i] = 0
+  }
+  for(let i of nums){
+    hashMap[i]++
+  }
+}
 ```
 
 **[⬆ back to top](#table-of-contents)**
