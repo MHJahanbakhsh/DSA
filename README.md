@@ -970,6 +970,9 @@ strings.splice(2, 0, 'alien');  // O(n)
 **[⬆ back to top](#table-of-contents)**
 
 ### Static vs Dynamic Arrays
+arrays take a very little amount of memory      
+static array is fixed in size,meaning you have to specify the amount of element your array will hold ahead of time       
+static arrays are for low level languages such as c++, c. javascript array are Dynamic by default       
 
 JavaScript Array is dynamic 
 
