@@ -1460,6 +1460,17 @@ class Node {
   }
 }
 
+
+//this linkedlist is little bit diffrent than what we saw earlier.here we always tend to have a refrence of last node in head, in a seperate attribute ,next to head //and lenght:
+```js
+linkedlist  = {head:{value:1,next:{value:2, next:{value:3, next:{value:4, next:null}}}},
+               length:4,
+               tail:{value:4,next:null}
+               
+//important note here is tail and last node of head are not just looking the same;but also they are pointing to exact same object. so every traverse in each one of them would be applied on both
+```
+
+
 class LinkedList {
   constructor(value) {
     this.head = new Node(value);
@@ -1468,8 +1479,8 @@ class LinkedList {
   }
   append(value) {
     const newNode = new Node(value);
-    this.tail.next = newNode;
-    this.tail = newNode;
+    this.tail.next = newNode;  //actually for the first append this.head.next1 can also work
+    this.tail = newNode;   //THIS IS WHERE BOTH OF THE TAILS ARE CHANINED TO EACHOTHER
     this.length++;
     return this;
   }
