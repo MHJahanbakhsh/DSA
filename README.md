@@ -1461,7 +1461,7 @@ class Node {
 }
 
 
-//this linkedlist is little bit diffrent than what we saw earlier.here we always tend to have a refrence of last node in head, in a seperate attribute ,next to head //and lenght:
+//this linkedlist is little bit diffrent than what we saw earlier with brad & kyle .here we always tend to have a refrence of last node in head, in a seperate attribute ,next to head //and lenght:
 /*
 linkedlist  = {head:{value:1,next:{value:2, next:{value:3, next:{value:4, next:null}}}},
                length:4,
