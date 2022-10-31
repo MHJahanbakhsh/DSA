@@ -1408,7 +1408,9 @@ Type
 
 **[⬆ back to top](#table-of-contents)**
 
+### linkedlist items in memory are actually scattred,like hashmaps.but array items are stored in memory right next to each other
 ### What Is A Linked List?
+
 
 - head -> apples
 - tail -> pears
