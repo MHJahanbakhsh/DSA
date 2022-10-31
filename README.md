@@ -1479,7 +1479,7 @@ class LinkedList {
   }
   append(value) {
     const newNode = new Node(value);
-    this.tail.next = newNode;  //actually for the first append this.head.next1 can also work
+    this.tail.next = newNode;  //actually for the first append this.tail is equals to this.head can.so what happens is for the first append we excplicitly set that //relation and for the next appends we already have the last node set to be equal to tail.so tail.felan would be applied to last node
     this.tail = newNode;   //THIS IS WHERE BOTH OF THE TAILS ARE CHANINED TO EACHOTHER
     this.length++;
     return this;
