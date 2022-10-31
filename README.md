@@ -1692,6 +1692,8 @@ Stacks: LIFO
 | push      | O(1)  |
 | peek      | O(1)  |
 
+peek means look look at the value on top
+
 **[⬆ back to top](#table-of-contents)**
 
 ### Queues
