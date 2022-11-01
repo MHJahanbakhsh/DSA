@@ -1714,6 +1714,8 @@ Stacks: FIFO
 | dequeue   | O(1)  |
 | peek      | O(1)  |
 
+Qeueus are much more efficient than arrays. for example in array in order to poping the first item, all other item's index would have to shift. this is not the case for Qeueu
+
 ### Stacks VS Queues
 
 Stacks
