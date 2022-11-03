@@ -2064,6 +2064,7 @@ Cons
 ![Screenshot (30)](https://user-images.githubusercontent.com/50621975/199821793-29672ed7-1506-4e2c-bc18-07ba8d0c6d10.png)
 ![2](https://user-images.githubusercontent.com/50621975/199822552-e5d3c0b1-afe2-43dd-bb17-4e46355462ff.png)
 ![3](https://user-images.githubusercontent.com/50621975/199822820-123c206c-5166-4b96-9118-5ab4f03e5578.png)
+__for the last case : you either have to go all the way left in the right-subtree(to find smalest in right) OR go all the way right in the left sub-tree(to find biggest in left)__
 
 
 ### Exercise: Binary Search Tree
