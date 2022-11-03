@@ -1995,6 +1995,8 @@ Types of Binary Tree
 
 - Perfect Binary Tree
 - Full Binary Tree
+![image](https://user-images.githubusercontent.com/50621975/199723645-170f3319-1032-4532-8bdb-33b91233c796.png)
+
 
 [Binary Search Tree](https://visualgo.net/bn/bst?slide=1)
 
