@@ -2027,6 +2027,7 @@ log 100 = 2
  / \    / \
 9  37  104 144
 ```
+inserting element to tree: compares that element to current node, if it's bigger go to right, if it's less go to left
 
 **[⬆ back to top](#table-of-contents)**
 
