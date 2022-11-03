@@ -2033,7 +2033,10 @@ inserting element to tree: compares that element to current node, if it's bigger
 
 ### Balanced VS Unbalanced BST
 
-Unbalanced BST
+Unbalanced BST:     
+![image](https://user-images.githubusercontent.com/50621975/199792842-1f936401-598b-49f9-8311-15176569fceb.png)
+what happens with an unbakanced BST is: it turns into a linkedlist after a while and you essentially will have a linkedlist. we have to balance them first with some algorithms such as AVL and Red Black but usually this will not be asked on interviews
+
 
 | Operation | Big O |
 | --------- | ----- |
