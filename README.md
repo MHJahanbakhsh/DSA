@@ -2243,7 +2243,8 @@ Red Black Trees:
 
 **[⬆ back to top](#table-of-contents)**
 
-### Binary Heaps
+### Binary Heaps        
+we didn't get any real implemention of Binary Heap. but in a nutshel they are tree-formed data structure,except right and left has no meaning. only feature of them is a descending or ascending order of items from root to bottom
 
 [Binary Heaps](https://visualgo.net/en/heap?slide=1)
 
