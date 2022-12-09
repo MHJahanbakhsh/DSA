@@ -2282,7 +2282,12 @@ Real life example
 
 ## **Section 11: Data Structures: Graphs**
 
-### Types Of [Graphs](https://visualgo.net/en/graphds)
+![image](https://user-images.githubusercontent.com/50621975/206652463-d616b0ec-a57d-4f56-b241-209a4ad05afb.png)
+graphs encompass variant of data structure.which means tree is also a graph. linkedlist is a tree which means it is a graph also.   
+![image](https://user-images.githubusercontent.com/50621975/206652686-8acd05de-2593-462b-a339-73c80770cbb4.png)
+
+
+### Types Of [Graphs](https://visualgo.net/en/graphds)          
 
 - Directed - Twitter
 - Undirected - Facebook
