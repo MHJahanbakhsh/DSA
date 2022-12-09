@@ -2291,10 +2291,19 @@ graphs encompass variant of data structure.which means tree is also a graph. lin
 
 - Directed - Twitter
 - Undirected - Facebook
+![image](https://user-images.githubusercontent.com/50621975/206654907-bc588709-74db-4096-83d5-6e57319636c2.png)
+
+
 - Weighted - Shortest path
 - Unweighted
+![image](https://user-images.githubusercontent.com/50621975/206654947-ebca7839-18db-4dd9-88af-824abd5550ae.png)
+
+
 - Cyclic - Google map
 - Acyclic
+![image](https://user-images.githubusercontent.com/50621975/206654967-d9424dc1-14b6-426e-90a7-e3a83aa2b6c8.png)
+
+
 - [Data Structures 101: Graphs — A Visual Introduction for Beginners](https://www.freecodecamp.org/news/data-structures-101-graphs-a-visual-introduction-for-beginners-6d88f36ec768/)
 
 [Real world examples](https://leapgraph.com/graph-data-structures-applications)
